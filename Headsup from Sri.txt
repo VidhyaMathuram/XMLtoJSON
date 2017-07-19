@@ -1,0 +1,5 @@
+Hi, 
+
+* This code parses Xml's selected few tags to JSON format.
+* I have assumed Risks as low(0,1), medium(2,3) and high(4,5).
+* Attached input file, output file , Main class and Unit Test.
