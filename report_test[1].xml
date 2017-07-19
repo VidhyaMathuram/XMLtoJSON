@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE main SYSTEM "https://outscan.outpost24.com/dtd/XMLReport.dtd">
+<main>
+   <report>OUTSCAN  Security Report</report>
+   <reportinfo>
+      <type>Vulnerability</type>
+      <id>CA1A26C8932B9852C5BC01849677B532</id>
+      <creator/>
+      <selectedschedulejob>DC2 schedule</selectedschedulejob>
+      <date>2016-11-05 17:00 - 2016-11-06 00:59</date>
+      <test>1</test>
+      <threat>5</threat>
+   </reportinfo>
+   <detaillist>
+      <detail>
+         <ip>192.168.210.10</ip>
+         <hostname>Dc2-windows2k3.internal.example.com</hostname>
+         <platform/>
+         <date>2016-11-05 17:00</date>
+         <virtualhost/>
+         <id>249748</id>
+         <name>Product End-of-Life (EOL)</name>
+         <portinfo>
+            <portnumber>445</portnumber>
+            <protocol>TCP</protocol>
+            <service/>
+         </portinfo>
+         <cvss_score>10.0</cvss_score>
+         <cvss_vector>(AV:N/AC:L/Au:N/C:C/I:C/A:C) (cdp:ND/td:ND/cr:ND/ir:ND/ar:ND)</cvss_vector>
+         <cvss_vector_description>This vulnerability can be exploited with ease and network access to the system by an attacker who does not have access to credentials with full loss of confidentiality, full impact to the integrity of information and serious issues in rendering the system or information availability. There are currently no exploits in the public domain. However, attacks may be well described or privately held.</cvss_vector_description>
+         <risk>4</risk>
+         <family>misc</family>
+         <product>Unspecified</product>
+         <description>This product has reached or will reach its end-of-life and will be no longer supported by the vendor.</description>
+         <information>This vulnerability was identified because (1) Microsoft Windows 5.2 SP2 reached end-of-life in 2015-07-14 and is no longer supported by the vendor</information>
+         <falsepositive>0</falsepositive>
+         <solutiontitle>Upgrade to a newer supported version</solutiontitle>
+         <solution>This product has reached or will reach its end-of-life and will be no longer supported by the vendor. If the product has already reached EOL, consider upgrading to a newer supported version.</solution>
+         <category>Workaround</category>
+         <referencelist>
+         </referencelist>
+         <cve/>
+         <bug/>
+         <verify/>
+         <history>
+            <firstseen>2014-10-24 17:00</firstseen>
+            <added>1</added>
+         </history>
+      </detail>
+      <detail>
+         <ip>192.168.210.10</ip>
+         <hostname>Dc2-windows2k3.internal.example.com</hostname>
+         <platform/>
+         <date>2016-11-05 17:00</date>
+         <virtualhost/>
+         <id>1217159</id>
+         <name>Microsoft Windows: MS15-050: Service Control Manager (SCM) Impersonation Level Validation Local Privilege Escalation</name>
+         <portinfo>
+            <portnumber>445</portnumber>
+            <protocol>TCP</protocol>
+            <service/>
+         </portinfo>
+         <cvss_score>6.9</cvss_score>
+         <cvss_vector>(AV:L/AC:M/Au:N/C:C/I:C/A:C) (cdp:ND/td:ND/cr:ND/ir:ND/ar:ND)</cvss_vector>
+         <cvss_vector_description>This vulnerability can be exploited with relative ease and local access to the system by an attacker who does not have access to credentials with full loss of confidentiality, full impact to the integrity of information and serious issues in rendering the system or information availability. There are currently no exploits in the public domain. However, attacks may be well described or privately held.</cvss_vector_description>
+         <risk>2</risk>
+         <family>microsoft</family>
+         <product>Microsoft Windows</product>
+         <description>The Service Control Manager (SCM) in Microsoft Windows does not properly constrain impersonation levels, which allows local users to gain privileges via a crafted application, aka &quot;Service Control Manager Elevation of Privilege Vulnerability.&quot;</description>
+         <information>This vulnerability was identified because (1) the detected version of Microsoft Windows, 5.2 SP2, is less than or equal to 5.2 SP2</information>
+         <falsepositive>0</falsepositive>
+         <solutiontitle>Apply latest patches for Microsoft Windows</solutiontitle>
+         <solution>Apply the latest patches for Microsoft Windows</solution>
+         <category>Patch</category>
+         <referencelist>
+            <reference>
+               <type>url</type>
+               <url>http://microsoft.com/windows/</url>
+            </reference>
+            <reference>
+               <type>advisory</type>
+               <url>http://technet.microsoft.com/security/bulletin/MS15-050</url>
+            </reference>
+         </referencelist>
+         <cve>
+            <id>CVE-2015-1702</id>
+         </cve>
+         <bug/>
+         <verify/>
+         <history>
+            <firstseen>2014-10-24 17:00</firstseen>
+            <added>1</added>
+         </history>
+      </detail>
+      <detail>
+         <ip>192.168.210.10</ip>
+         <hostname>Dc2-windows2k3.internal.example.com</hostname>
+         <platform/>
+         <date>2016-11-05 17:00</date>
+         <virtualhost/>
+         <id>204847</id>
+         <name>Microsoft Windows: Help File Unspecified Heap Overflow Vulnerability</name>
+         <portinfo>
+            <portnumber>445</portnumber>
+            <protocol>TCP</protocol>
+            <service/>
+         </portinfo>
+         <cvss_score>6.8</cvss_score>
+         <cvss_vector>(AV:N/AC:M/Au:N/C:P/I:P/A:P) (cdp:ND/td:ND/cr:ND/ir:ND/ar:ND)</cvss_vector>
+         <cvss_vector_description>This vulnerability can be exploited with relative ease and network access to the system by an attacker who does not have access to credentials with some impact on confidentiality, some impact to the integrity of information and some impact on system or information availability. There are currently openly or financially obtainable exploits on the market, or the attack is well described in the public domain.</cvss_vector_description>
+         <risk>2</risk>
+         <family>microsoft</family>
+         <product>Microsoft Windows</product>
+         <description>Heap-based buffer overflow in Microsoft Windows allows user-assisted remote attackers to have an unknown impact via a crafted .HLP file.</description>
+         <information>This vulnerability was identified because (1) the detected version of Microsoft Windows, 5.2 SP2, is equal to 5.2 sp2</information>
+         <falsepositive>0</falsepositive>
+         <solutiontitle>Upgrade to the latest version of Microsoft Windows</solutiontitle>
+         <solution>Upgrade to the latest version of Microsoft Windows.</solution>
+         <category>Update</category>
+         <referencelist>
+            <reference>
+               <type>url</type>
+               <url>http://microsoft.com/windows/</url>
+            </reference>
+         </referencelist>
+         <cve>
+            <id>CVE-2007-1912</id>
+         </cve>
+         <bug>
+            <id>23382</id>
+         </bug>
+         <verify/>
+         <history>
+            <firstseen>2014-10-24 17:00</firstseen>
+            <added>1</added>
+         </history>
+         <exploitability>
+            <exploit>
+               <type>exploitdb</type>
+               <description>MS Windows .HLP File Local HEAP Overflow PoC 0day</description>
+               <reference>CVE-2007-1912</reference>
+               <link>http://www.exploit-db.com/exploits/3693/</link>
+            </exploit>
+         </exploitability>
+      </detail>
+      <detail>
+         <ip>192.168.210.10</ip>
+         <hostname>Dc2-windows2k3.internal.example.com</hostname>
+         <platform/>
+         <date>2016-11-05 17:00</date>
+         <virtualhost/>
+         <id>1212575</id>
+         <name>Microsoft Windows: MS15-005: Network Location Awareness (NLA) Service Firewall Policy Bypass</name>
+         <portinfo>
+            <portnumber>445</portnumber>
+            <protocol>TCP</protocol>
+            <service/>
+         </portinfo>
+         <cvss_score>6.1</cvss_score>
+         <cvss_vector>(AV:A/AC:L/Au:N/C:N/I:C/A:N) (cdp:ND/td:ND/cr:ND/ir:ND/ar:ND)</cvss_vector>
+         <cvss_vector_description>This vulnerability can be exploited with ease and access to an adjacent network by an attacker who does not have access to credentials with no impact on confidentiality, full impact to the integrity of information and without affecting the availability of the information or system. There are currently no exploits in the public domain. However, attacks may be well described or privately held.</cvss_vector_description>
+         <risk>2</risk>
+         <family>microsoft</family>
+         <product>Microsoft Windows</product>
+         <description>The Network Location Awareness (NLA) service in Microsoft Windows does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;</description>
+         <information>This vulnerability was identified because (1) the detected version of Microsoft Windows, 5.2 SP2, is equal to 5.2 SP2</information>
+         <falsepositive>0</falsepositive>
+         <solutiontitle>Apply latest patches for Microsoft Windows</solutiontitle>
+         <solution>Apply the latest patches for Microsoft Windows</solution>
+         <category>Patch</category>
+         <referencelist>
+            <reference>
+               <type>url</type>
+               <url>http://microsoft.com/windows/</url>
+            </reference>
+            <reference>
+               <type>advisory</type>
+               <url>http://technet.microsoft.com/security/bulletin/MS15-005</url>
+            </reference>
+         </referencelist>
+         <cve>
+            <id>CVE-2015-0006</id>
+         </cve>
+         <bug/>
+         <verify/>
+         <history>
+            <firstseen>2014-10-24 17:00</firstseen>
+            <added>1</added>
+         </history>
+      </detail>
+      <detail>
+         <ip>192.168.210.10</ip>
+         <hostname>Dc2-windows2k3.internal.example.com</hostname>
+         <platform/>
+         <date>2016-11-05 17:00</date>
+         <virtualhost/>
+         <id>236522</id>
+         <name>Microsoft Windows: Unspecified API Argument Validation Local DoS</name>
+         <portinfo>
+            <portnumber>445</portnumber>
+            <protocol>TCP</protocol>
+            <service/>
+         </portinfo>
+         <cvss_score>4.7</cvss_score>
+         <cvss_vector>(AV:L/AC:M/Au:N/C:N/I:N/A:C) (cdp:ND/td:ND/cr:ND/ir:ND/ar:ND)</cvss_vector>
+         <cvss_vector_description>This vulnerability can be exploited with relative ease and local access to the system by an attacker who does not have access to credentials with no impact on confidentiality, no impact to integrity of information and serious issues in rendering the system or information availability. There are currently no exploits in the public domain. However, attacks may be well described or privately held.</cvss_vector_description>
+         <risk>2</risk>
+         <family>microsoft</family>
+         <product>Microsoft Windows</product>
+         <description>An unspecified API in Microsoft Windows 2000, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7 does not validate arguments, which allows local users to cause a denial of service (system crash) via a crafted application.</description>
+         <information>This vulnerability was identified because (1) the detected version of Microsoft Windows, 5.2 SP2, is less than or equal to 5.2 SP2</information>
+         <falsepositive>0</falsepositive>
+         <solutiontitle>The vendor has not acknowledged this vulnerability</solutiontitle>
+         <solution>The vendor has not acknowledged the existence of this vulnerability. Contact the vendor for further information.</solution>
+         <category>Contact Vendor</category>
+         <referencelist>
+            <reference>
+               <type>url</type>
+               <url>http://microsoft.com/windows/</url>
+            </reference>
+         </referencelist>
+         <cve>
+            <id>CVE-2010-0719</id>
+         </cve>
+         <bug/>
+         <verify/>
+         <history>
+            <firstseen>2014-10-24 17:00</firstseen>
+            <added>1</added>
+         </history>
+      </detail>
+   </detaillist>
+</main>
